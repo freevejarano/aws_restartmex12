@@ -22,12 +22,23 @@ def operacionDificil(radio, pi, altura, diametro, ancho):
 
 operacionDificil(radio=5, pi=4, altura=3, diametro=10, ancho=2)
 
-
 def suma(a, b):
     resultado = a + b
-    print(f"La suma de {a} y {b} es: {resultado}")
+    return resultado
+    #print(f"La suma de {a} y {b} es: {resultado}")
 
-suma(3, 5)
+resultado = suma(3, 5)
 
+#print(resultado)
+a, b, c = 1, 2, 3
 
+def demo(k):
+    y = a + b + c
+    return y
+
+print(demo(7))
+
+nombre = "Alejandro"
+
+print(help(round))
 
